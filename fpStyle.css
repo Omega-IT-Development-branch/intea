@@ -1,0 +1,209 @@
+html {
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.row-flex {
+    flex-direction: row;
+}
+.column-flex {
+    flex-direction: column;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+@keyframes gradient {
+    0% {
+        background-position: 80% 0%;
+    }
+    50% {
+        background-position: 20% 100%;
+    }
+    100% {
+        background-position: 80% 0%;
+    }
+}
+#stars { 
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(149deg, #09c1ff 0%, #26273b 42%, #bb1894 72%, #0c08ff 100%);
+    animation: gradient 10s infinite linear;
+    background-size: 400%;
+    width:100%;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.main-box {
+    width: 90vw;
+    margin: 0 auto;
+    height: 100%;
+    margin-top: 1%;
+}
+.ag-logos {
+    width: 90%;
+    justify-content: center;
+    margin: 0 auto;
+}
+.ag-logos h1{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 96px;
+    color: #fff;
+}
+.ag-logo {
+    width: 30%;
+}
+.ag-logo img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.customer {
+    width: 100%;
+    align-items: center;
+}
+.customer h2{
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.page-info {
+    border: 2px solid #09c1ff;
+    width: calc(25% - 60px);
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    transition: all .5s;
+}
+.page-info:hover {
+    background: #09c1ff;
+    transition: all .5s;
+    box-shadow: 0px 0px 20px #7bd8fd;
+}
+.page-link {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    transition: .5s;
+    width: 75%;
+}
+.page-link:hover {
+    font-weight: 700;
+    transition: .5s;
+    color: #000;
+}
+.lang-item {
+    align-items: center;
+    gap: 8px;
+}
+.lang-item span{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    height: 100%;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #000;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+@media screen and (max-width: 480px) {
+    .main-box {
+        max-height: 100vh;
+        overflow: scroll;
+        margin-top: 0;
+    }
+    .page-info {
+        width: calc(100%);
+    }
+}
