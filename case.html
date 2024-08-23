@@ -7,27 +7,60 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <div class="logo">
-                <img src="https://www.intea.pro/upload/iblock/612/6128f6e34f6378d36244c954443ba50d.png" alt="Logo">
-                <p>ИНТЕА</p>
-            </div>
-            <div class="nav">
-                <a href="#">Продукты</a>
-                <a href="#">Поддержка</a>
-                <a href="#">Сервис</a>
-                <a href="#">Услуги</a>
-                <a href="#">Клеверенс</a>
-                <a href="#">Складская логистика</a>
-                <a href="#">О компании</a>
-                <a href="#">Статьи</a>
+  <div class="container">
+    <header class="header flex">
+        <div class="logo">
+            <svg width="146" height="44" viewBox="0 0 146 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect y="0.5" width="43" height="43" fill="white"/>
+                <path d="M32.7314 8.50854H10.2685V23.3493H32.7314" stroke="#0061FE" stroke-width="3"/>
+                <path d="M21.4999 23.2817V35.4916" stroke="#0061FE" stroke-width="3"/>
+                <path d="M39.5204 35.4917H3.47852" stroke="#0061FE" stroke-width="3"/>
+                <path d="M74.94 30H71.72V16.7L62.48 30H59.96V10.4H63.18V23.7L72.42 10.4H74.94V30ZM90.7545 18.436V10.4H93.9745V30H90.7545V21.516H82.3545V30H79.1345V10.4H82.3545V18.436H90.7545ZM96.6323 10.4H110.912V13.48H105.396V30H102.176V13.48H96.6323V10.4ZM116.793 21.628V26.92H125.473V30H113.573V10.4H125.333V13.48H116.793V18.576H124.633V21.628H116.793ZM145.215 30H141.743L140.371 26.052H132.027L130.655 30H127.155L134.267 10.4H138.131L145.215 30ZM136.199 14.18L133.091 23.028H139.307L136.199 14.18Z" fill="#000"/>
+            </svg>
+        </div>
+        <div class="nav flex">
+            <a href="catalog.html"><span>Продукты</span></a>
+            <a href="#"><span>Поддержка</span></a>
+            <a href="services.html"><span>Сервис</span></a>
+            <a href="uslugi.html"><span>Услуги</span></a>
+            <a href="#"><span>Клеверенс</span></a>
+            <a href="#"><span>Складская логистика</span></a>
+            <a href="#"><span>О компании</span></a>
+            <a href="blog.html"><span>Статьи</span></a>
+        </div>
+        <div class="cta-header-items flex">
+            <div class="search-box flex">
                 <input type="text" placeholder="Поиск">
-                <button class="button">Заказать звонок</button>
+                <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs>
+                        <clipPath id="clip96_12563">
+                            <rect rx="-0.500000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+                        </clipPath>
+                    </defs>
+                    <g clip-path="url(#clip96_12563)">
+                        <path d="M10 17C6.13 17 3 13.86 3 10C3 6.13 6.13 3 10 3C13.86 3 17 6.13 17 10C17 13.86 13.86 17 10 17Z" stroke="#DBDBDB" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
+                        <path d="M15 15L21 21" stroke="#DBDBDB" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+                    </g>
+                </svg>
+            </div>
+            <button class="button">Заказать звонок</button>
+            <div class="cart-box flex">
+                <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs/>
+                    <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#0061FE" fill-opacity="1.000000" fill-rule="evenodd"/>
+                    <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#0061FE" fill-opacity="1.000000" fill-rule="evenodd"/>
+                </svg>
+                <span>1</span>
             </div>
         </div>
+    </header>
+  </div>
+  <div class="container">
+    <div class="breadcrumbs flex">
+      <a href="home.html">Главная</a>
+      <span></span>
+      <p>Блог</p>
     </div>
-    <div class="container">
   <div class="content">
     <h1>Как мы снизили затраты в крупной компании</h1>
     <h2>Оптиксервис</h2>
@@ -96,27 +129,43 @@
   </div>
 </div>
 
-<div class="container">
-  <div class="footer">
-      <div class="footer-logo">
-          <img src="https://www.intea.pro/upload/iblock/612/6128f6e34f6378d36244c954443ba50d.png" alt="Logo">
-          <p>ИНТЕА</p>
-      </div>
-      <div class="footer-links">
-          <a href="#">Поддержка</a>
-          <a href="#">Сервисы</a>
-          <a href="#">Услуги</a>
-          <a href="#">Продукты</a>
-          <a href="#">Облачная 1С</a>
-      </div>
-      <div class="footer-contact">
-          <p>+7 (383) 228-38-85</p>
-          <p>Новосибирск, ул. Сакко и Ванцетти, д. 77, 5 этаж</p>
-          <p>info@intea.pro</p>
+<footer>
+  <div class="container">
+      <div class="footer flex">
+          <div class="footer-tiem-menu flex column-flex">
+              <div class="footer-line flex">
+                  <div class="footer-logo logo">
+                      <svg width="146" height="44" viewBox="0 0 146 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <rect y="0.5" width="43" height="43" fill="white"/>
+                          <path d="M32.7314 8.50854H10.2685V23.3493H32.7314" stroke="#0061FE" stroke-width="3"/>
+                          <path d="M21.4999 23.2817V35.4916" stroke="#0061FE" stroke-width="3"/>
+                          <path d="M39.5204 35.4917H3.47852" stroke="#0061FE" stroke-width="3"/>
+                          <path d="M74.94 30H71.72V16.7L62.48 30H59.96V10.4H63.18V23.7L72.42 10.4H74.94V30ZM90.7545 18.436V10.4H93.9745V30H90.7545V21.516H82.3545V30H79.1345V10.4H82.3545V18.436H90.7545ZM96.6323 10.4H110.912V13.48H105.396V30H102.176V13.48H96.6323V10.4ZM116.793 21.628V26.92H125.473V30H113.573V10.4H125.333V13.48H116.793V18.576H124.633V21.628H116.793ZM145.215 30H141.743L140.371 26.052H132.027L130.655 30H127.155L134.267 10.4H138.131L145.215 30ZM136.199 14.18L133.091 23.028H139.307L136.199 14.18Z" fill="#fff"/>
+                      </svg>
+                  </div>
+                  <div class="footer-links flex">
+                      <a href="#">Поддержка</a>
+                      <a href="#">Сервисы</a>
+                      <a href="#">Услуги</a>
+                      <a href="#">Продукты</a>
+                      <a href="#">Облачная 1С</a>
+                  </div>
+              </div>
+              <div class="footer-line">
+                  <p>ООО «ИНТЕА» ОГРН 1225400024354 ИНН 5405074480</p>
+              </div>
+          </div>
+          <div class="footer-contact-box flex column-flex">
+              <button class="button">Заказать звонок</button>
+              <div class="footer-contact flex column-flex">
+                  <a class="footer-tel" href="+73832283885">+7 (383) 228-38-85</a>
+                  <p>Новосибирск, <br>ул. Сакко и Ванцетти, <br>д. 77, 5 этаж</p>
+                  <a href="mailto:info@intea.pro">info@intea.pro</a>
+              </div>
+          </div>
       </div>
   </div>
-</div>
+</footer>
 <script src="script.js"></script>
-
 </body>
 </html>

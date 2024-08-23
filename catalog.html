@@ -5,153 +5,1002 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INTEA CATALOG</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="container">
-        <div class="header">
+    <div class="container">
+        <header class="header flex">
             <div class="logo">
-                <img src="https://www.intea.pro/upload/iblock/612/6128f6e34f6378d36244c954443ba50d.png" alt="Logo">
-                <p>ИНТЕА</p>
+                <svg width="146" height="44" viewBox="0 0 146 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect y="0.5" width="43" height="43" fill="white"/>
+                    <path d="M32.7314 8.50854H10.2685V23.3493H32.7314" stroke="#0061FE" stroke-width="3"/>
+                    <path d="M21.4999 23.2817V35.4916" stroke="#0061FE" stroke-width="3"/>
+                    <path d="M39.5204 35.4917H3.47852" stroke="#0061FE" stroke-width="3"/>
+                    <path d="M74.94 30H71.72V16.7L62.48 30H59.96V10.4H63.18V23.7L72.42 10.4H74.94V30ZM90.7545 18.436V10.4H93.9745V30H90.7545V21.516H82.3545V30H79.1345V10.4H82.3545V18.436H90.7545ZM96.6323 10.4H110.912V13.48H105.396V30H102.176V13.48H96.6323V10.4ZM116.793 21.628V26.92H125.473V30H113.573V10.4H125.333V13.48H116.793V18.576H124.633V21.628H116.793ZM145.215 30H141.743L140.371 26.052H132.027L130.655 30H127.155L134.267 10.4H138.131L145.215 30ZM136.199 14.18L133.091 23.028H139.307L136.199 14.18Z" fill="#000"/>
+                </svg>
             </div>
-            <div class="nav">
-                <a href="#">Продукты</a>
-                <a href="#">Поддержка</a>
-                <a href="#">Сервис</a>
-                <a href="#">Услуги</a>
-                <a href="#">Клеверенс</a>
-                <a href="#">Складская логистика</a>
-                <a href="#">О компании</a>
-                <a href="#">Статьи</a>
-                <input type="text" placeholder="Поиск">
+            <div class="nav flex">
+                <a href="catalog.html"><span>Продукты</span></a>
+                <a href="#"><span>Поддержка</span></a>
+                <a href="services.html"><span>Сервис</span></a>
+                <a href="uslugi.html"><span>Услуги</span></a>
+                <a href="#"><span>Клеверенс</span></a>
+                <a href="#"><span>Складская логистика</span></a>
+                <a href="#"><span>О компании</span></a>
+                <a href="blog.html"><span>Статьи</span></a>
+            </div>
+            <div class="cta-header-items flex">
+                <div class="search-box flex">
+                    <input type="text" placeholder="Поиск">
+                    <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs>
+                            <clipPath id="clip96_12563">
+                                <rect rx="-0.500000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+                            </clipPath>
+                        </defs>
+                        <g clip-path="url(#clip96_12563)">
+                            <path d="M10 17C6.13 17 3 13.86 3 10C3 6.13 6.13 3 10 3C13.86 3 17 6.13 17 10C17 13.86 13.86 17 10 17Z" stroke="#DBDBDB" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
+                            <path d="M15 15L21 21" stroke="#DBDBDB" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+                        </g>
+                    </svg>
+                </div>
                 <button class="button">Заказать звонок</button>
+                <div class="cart-box flex">
+                    <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#0061FE" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#0061FE" fill-opacity="1.000000" fill-rule="evenodd"/>
+                    </svg>
+                    <span>1</span>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="container">
+        <div class="breadcrumbs flex">
+            <a href="home.html">Главная</a>
+            <span></span>
+            <p>Продукты</p>
+        </div>
+        <main class="main flex">
+            <div class="title-box">
+                <div class="parallax-title"></div>
+                <h1 class="main-title">Продукты 1C</h1>
+            </div>
+
+            <div class="tab flex">
+                <button class="tablinks" onclick="openTab(event, 'tab1')" id="defaultOpen">Все</button>
+                <button class="tablinks" onclick="openTab(event, 'tab2')">Для малого бизнеса</button>
+                <button class="tablinks" onclick="openTab(event, 'tab3')">Для крупных компаний</button>
+                <button class="tablinks" onclick="openTab(event, 'tab4')">Бухгалтерия</button>
+                <button class="tablinks" onclick="openTab(event, 'tab5')">Только товарооборот</button>
+            </div>
+      
+          <section class="section flex column-flex tabcontent" id="tab1">
+            <div class="main-content products flex">
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="button" style="margin: 0 auto;">Показать еще</button>
+          </section>
+
+          <section class="section flex column-flex tabcontent" id="tab2">
+            <div class="main-content products flex">
+              
+              
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="button" style="margin: 0 auto;">Показать еще</button>
+          </section>
+
+          <section class="section flex column-flex tabcontent" id="tab3">
+            <div class="main-content products flex">
+              
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="button" style="margin: 0 auto;">Показать еще</button>
+          </section>
+
+          <section class="section flex column-flex tabcontent" id="tab4">
+            <div class="main-content products flex">
+            
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="button" style="margin: 0 auto;">Показать еще</button>
+          </section>
+
+          <section class="section flex column-flex tabcontent" id="tab5">
+            <div class="main-content products flex">
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="product flex column-flex">
+                <a href="catalog-item.html" class="product-link flex column-flex">
+                  <div class="product-image-box flex">
+                    <div class="product-paralax"></div>
+                    <img src="/img/1С.png" alt="Image 1">
+                  </div>
+                  <h3>1Адаптация типовых конфигураций 1С</h3>
+                  <p>Базовый набор для небольшой компании по льготной цене</p>
+                </a>
+                <div class="product-woo-content flex">
+                  <div class="price-box flex">
+                    <span class="price">2 209 &#8381;</span>
+                    <span class="price old-price"><del>3 000 &#8381;</del></span>
+                  </div>
+                  <div class="cart-items flex">
+                    <button class="trasp-button">Купить в 1 клик</button>
+                    <div class="add-to-cart">
+                      <svg width="20.828125" height="24.000000" viewBox="0 0 20.8281 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs/>
+                        <path id="Rectangle 1108 (Stroke) (Stroke)" d="M4.99 8C3.97 8 3.11 8.76 3 9.77L2.01 18.66C1.82 20.44 3.21 22 5 22L15.82 22C17.61 22 19 20.44 18.8 18.66L17.82 9.77C17.7 8.76 16.85 8 15.83 8L4.99 8ZM1.01 9.55C1.24 7.53 2.95 6 4.99 6L15.83 6C17.87 6 19.58 7.53 19.8 9.55L20.79 18.44C21.12 21.4 18.8 24 15.82 24L5 24C2.02 24 -0.3 21.4 0.03 18.44L1.01 9.55Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                        <path id="Subtract" d="M7.41 5C7.41 3.34 8.75 2 10.41 2C12.07 2 13.41 3.34 13.41 5L13.41 10L15.41 10L15.41 5C15.41 2.23 13.17 0 10.41 0C7.65 0 5.41 2.23 5.41 5L5.41 10L7.41 10L7.41 5Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="evenodd"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="button" style="margin: 0 auto;">Показать еще</button>
+          </section>
+
+        </main>
+        <script>
+            function openTab(evt, cityName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(cityName).style.display = "flex";
+                evt.currentTarget.className += " active";
+            }
+            
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+        </script>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer flex">
+                <div class="footer-tiem-menu flex column-flex">
+                    <div class="footer-line flex">
+                        <div class="footer-logo logo">
+                            <svg width="146" height="44" viewBox="0 0 146 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="0.5" width="43" height="43" fill="white"/>
+                                <path d="M32.7314 8.50854H10.2685V23.3493H32.7314" stroke="#0061FE" stroke-width="3"/>
+                                <path d="M21.4999 23.2817V35.4916" stroke="#0061FE" stroke-width="3"/>
+                                <path d="M39.5204 35.4917H3.47852" stroke="#0061FE" stroke-width="3"/>
+                                <path d="M74.94 30H71.72V16.7L62.48 30H59.96V10.4H63.18V23.7L72.42 10.4H74.94V30ZM90.7545 18.436V10.4H93.9745V30H90.7545V21.516H82.3545V30H79.1345V10.4H82.3545V18.436H90.7545ZM96.6323 10.4H110.912V13.48H105.396V30H102.176V13.48H96.6323V10.4ZM116.793 21.628V26.92H125.473V30H113.573V10.4H125.333V13.48H116.793V18.576H124.633V21.628H116.793ZM145.215 30H141.743L140.371 26.052H132.027L130.655 30H127.155L134.267 10.4H138.131L145.215 30ZM136.199 14.18L133.091 23.028H139.307L136.199 14.18Z" fill="#fff"/>
+                            </svg>
+                        </div>
+                        <div class="footer-links flex">
+                            <a href="#">Поддержка</a>
+                            <a href="#">Сервисы</a>
+                            <a href="#">Услуги</a>
+                            <a href="#">Продукты</a>
+                            <a href="#">Облачная 1С</a>
+                        </div>
+                    </div>
+                    <div class="footer-line">
+                        <p>ООО «ИНТЕА» ОГРН 1225400024354 ИНН 5405074480</p>
+                    </div>
+                </div>
+                <div class="footer-contact-box flex column-flex">
+                    <button class="button">Заказать звонок</button>
+                    <div class="footer-contact flex column-flex">
+                        <a class="footer-tel" href="+73832283885">+7 (383) 228-38-85</a>
+                        <p>Новосибирск, <br>ул. Сакко и Ванцетти, <br>д. 77, 5 этаж</p>
+                        <a href="mailto:info@intea.pro">info@intea.pro</a>
+                    </div>
+                </div>
             </div>
         </div>
-</div>
-<div class="container">
-<div class="content">
-  <h2>Продукты 1С</h2>
-  <div class="filters">
-    <button class="filter-button active">Все</button>
-    <button class="filter-button">Для малого бизнеса</button>
-    <button class="filter-button">Для крупных компаний</button>
-    <button class="filter-button">Бухгалтерия</button>
-    <button class="filter-button">Только товарооборот</button>
-  </div>
-
-  <div class="products">
-    <div class="product">
-      <img src="https://www.1c.ru/upload/iblock/618/618e66ef46e47d227f41c81078879c56.png" alt="Product Image">
-      <h3>1С КП: базовый на 1 месяц</h3>
-      <p class="product-info">Базовый набор для небольшой компании по льготной цене</p>
-      <p class="product-price">2 209 ₽</p>
-      <button class="product-button">Купить в 1 клик</button>
-    </div>
-
-    <div class="product">
-      <img src="https://www.1c.ru/upload/iblock/618/618e66ef46e47d227f41c81078879c56.png" alt="Product Image">
-      <h3>1С КП: базовый на 1 месяц</h3>
-      <p class="product-info">Базовый набор для небольшой компании по льготной цене</p>
-      <p class="product-price">2 209 ₽</p>
-      <button class="product-button">Купить в 1 клик</button>
-    </div>
-
-    <div class="product">
-      <img src="https://www.1c.ru/upload/iblock/618/618e66ef46e47d227f41c81078879c56.png" alt="Product Image">
-      <h3>1С КП: базовый на 1 месяц</h3>
-      <p class="product-info">Базовый набор для небольшой компании по льготной цене</p>
-      <p class="product-price">2 209 ₽</p>
-      <button class="product-button">Купить в 1 клик</button>
-    </div>
-
-    <div class="product">
-      <img src="https://www.1c.ru/upload/iblock/618/618e66ef46e47d227f41c81078879c56.png" alt="Product Image">
-      <h3>1С КП: базовый на 1 месяц</h3>
-      <p class="product-info">Базовый набор для небольшой компании по льготной цене</p>
-      <p class="product-price">2 209 ₽</p>
-      <button class="product-button">Купить в 1 клик</button>
-    </div>
-
-    <div class="product">
-      <img src="https://www.1c.ru/upload/iblock/618/618e66ef46e47d227f41c81078879c56.png" alt="Product Image">
-      <h3>1С КП: базовый на 1 месяц</h3>
-      <p class="product-info">Базовый набор для небольшой компании по льготной цене</p>
-      <p class="product-price">2 209 ₽</p>
-      <button class="product-button">Купить в 1 клик</button>
-    </div>
-
-    <div class="product">
-      <img src="https://www.1c.ru/upload/iblock/618/618e66ef46e47d227f41c81078879c56.png" alt="Product Image">
-      <h3>1С КП: базовый на 1 месяц</h3>
-      <p class="product-info">Базовый набор для небольшой компании по льготной цене</p>
-      <p class="product-price">2 209 ₽</p>
-      <button class="product-button">Купить в 1 клик</button>
-    </div>
-
-    <div class="product">
-      <img src="https://www.1c.ru/upload/iblock/618/618e66ef46e47d227f41c81078879c56.png" alt="Product Image">
-      <h3>1С КП: базовый на 1 месяц</h3>
-      <p class="product-info">Базовый набор для небольшой компании по льготной цене</p>
-      <p class="product-price">2 209 ₽</p>
-      <button class="product-button">Купить в 1 клик</button>
-    </div>
-
-    <div class="product">
-      <img src="https://www.1c.ru/upload/iblock/618/618e66ef46e47d227f41c81078879c56.png" alt="Product Image">
-      <h3>1С КП: базовый на 1 месяц</h3>
-      <p class="product-info">Базовый набор для небольшой компании по льготной цене</p>
-      <p class="product-price">2 209 ₽</p>
-      <button class="product-button">Купить в 1 клик</button>
-    </div>
-  </div>
-  
-  <div class="cta">
-    <button>Показать еще</button>
-  </div>
-</div>
-</div>
-<div class="container">
-  <div class="footer">
-      <div class="footer-logo">
-          <img src="https://www.intea.pro/upload/iblock/612/6128f6e34f6378d36244c954443ba50d.png" alt="Logo">
-          <p>ИНТЕА</p>
-      </div>
-      <div class="footer-links">
-          <a href="#">Поддержка</a>
-          <a href="#">Сервисы</a>
-          <a href="#">Услуги</a>
-          <a href="#">Продукты</a>
-          <a href="#">Облачная 1С</a>
-      </div>
-      <div class="footer-contact">
-          <p>+7 (383) 228-38-85</p>
-          <p>Новосибирск, ул. Сакко и Ванцетти, д. 77, 5 этаж</p>
-          <p>info@intea.pro</p>
-      </div>
-  </div>
-</div>
-<script src="script.js"></script>
-
-<script>
-const filterButtons = document.querySelectorAll('.filter-button');
-const products = document.querySelectorAll('.product');
-
-filterButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    filterButtons.forEach(btn => btn.classList.remove('active'));
-    button.classList.add('active');
-
-    const filterValue = button.textContent.toLowerCase();
-    products.forEach(product => {
-      const productCategory = product.querySelector('.product-info').textContent.toLowerCase();
-      if (filterValue === 'все' || productCategory.includes(filterValue)) {
-        product.style.display = 'block';
-      } else {
-        product.style.display = 'none';
-      }
-    });
-  });
-});
-</script>
-
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
