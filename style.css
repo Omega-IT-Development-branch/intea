@@ -341,7 +341,7 @@ h1, h2, h3 {
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  z-index: 4; /* Sit on top */
   right: 0;
   top: 0;
   width: 100%; /* Full width */
