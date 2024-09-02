@@ -10,6 +10,12 @@
         href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/wow.min.js"></script>
+              <script>
+                new WOW().init();
+              </script>
+
 </head>
 <body>
     <div class="container">
@@ -35,7 +41,7 @@
             </div>
             <div class="cta-header-items flex">
                 <div class="search-box flex">
-                    <input type="text" placeholder="Поиск">
+                    <input type="search" placeholder="Поиск">
                     <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <defs>
                             <clipPath id="clip96_12563">
@@ -57,90 +63,133 @@
                     </svg>
                     <span>1</span>
                 </div>
+                <div class="burger" id="burger">
+                    <svg width="34" height="20" viewBox="0 0 34 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M32 18L2 18" stroke="#0061FE" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M32 10L2 10" stroke="#0061FE" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M32 2L2 2" stroke="#0061FE" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                        
+                </div>
             </div>
         </header>
     </div>
     <div class="container">
-        <div class="content">
-            <div class="left">
-                <h1>Разработка проектов на базе 1С для малого, среднего и крупного бизнеса</h1>
-                <p>Помогаем сократить расходы на 25-30%, связанные со стоимостью рабочих мест, обучением сотрудников и информационной поддержкой и масштабированием проекта</p>
-            </div>
-            <div class="right">
-                <img src="https://www.intea.pro/upload/iblock/09e/09e9065c69182f3975a90efb767abf93.png" alt="Laptop">
-                <p>Складская логистика</p>
-                <p>Сократите время на сборку заказа на 25%</p>
-                <p>Скидки на услуги</p>
-            </div>
-        </div>
-        <div class="content">
-            <div class="section">
-                <div class="section-left">
-                    <img src="https://www.intea.pro/upload/iblock/d9f/d9f7b7d752775e812a657e8b0a28452b.jpg" alt="Warehouse" class="section-image">
-                    <p class="section-title">Оптимизируйте складскую логистику с нашим инновационным модулем</p>
-                    <p class="section-description">Решение для точной и быстрой обработки заказов</p>
+        <main class="main">
+            <section class="section">
+                <div class="hero flex row-flex">
+                    <div class="left flex row-flex mobile-fw">
+                        <div class="hero-left-item flex column-flex mobile-fw">
+                            <h1>Разработка проектов на базе 1С для малого, среднего и крупного бизнеса</h1>
+                            <p>Помогаем сократить расходы на 25-30%, связанные со стоимостью рабочих мест, обучением сотрудников и информационной поддержкой и масштабированием проекта</p>
+                        </div>
+                        <div class="hero-left-item mobile-fw">
+                            <img src="img/laptop-graph.png" alt="laptop-graph">
+                        </div>
+                    </div>
+                    <div class="right flex column-flex mobile-fw">
+                        <div class="hero-right-item flex row-flex">
+                            <h3>Складская логистика</h3>
+                            <p>Сократите время на сборку заказа на 25%</p>
+                            <div class="parallax-banner"></div>
+                        </div>
+                        <div class="hero-right-item flex">
+                            <h3>Скидки на услуги</h3>
+                            <div class="parallax-banner"></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="section-right">
-                    <img src="https://www.intea.pro/upload/iblock/1a0/1a04d906c745754d52703d48c96d4e31.png" alt="Integration" class="section-image">
-                    <p class="section-title">Любые сложные интеграции 1С</p>
-                    <p class="section-description">С CRM, IP-телефонией, ТСД</p>
-                </div>
-            </div>
-            <div class="section">
-                <div class="section-left">
-                    <img src="https://www.intea.pro/upload/iblock/415/415983120b88d233765f2e16a54d92d8.png" alt="Laptop" class="section-image">
-                    <p class="section-title">1С для маркетплейсов</p>
-                    <p class="section-description">Отгружайте товары на Озон и Wildberies в 10 раз быстрее. Даже если заказов - сотни в день</p>
-                </div>
-                <div class="section-right">
-                    <img src="https://www.intea.pro/upload/iblock/67b/67b9a6f2188719107265d5a1518e045e.png" alt="Laptop" class="section-image">
-                    <p class="section-title">Автоматизация товароучетных операций с Клеверенс</p>
-                    <p class="section-description">Ускорьте процессы, устраните ошибки человеческого фактора и продавайте больше с меньшими усилиями</p>
-                </div>
-            </div>
-            <div class="section">
-                <div class="section-left">
-                    <img src="https://www.intea.pro/upload/iblock/171/17172948690ef44f467193e0e877a013.png" alt="Phone" class="section-image">
-                    <p class="section-title">Веб-приложения</p>
-                    <p class="section-description">Для использования 1С другими приложениями по протоколам HTTP, SSL/TLS, WS-I BP, SOAP, WSDL</p>
-                </div>
-                <div class="section-right">
-                    <img src="https://www.intea.pro/upload/iblock/a63/a6353057e09d9883b2580e58e3e8141a.png" alt="Configuration" class="section-image">
-                    <p class="section-title">Адаптация типовых конфигураций 1С</p>
-                    <p class="section-description">Ритейл, цветы, электроника, бытовые товары, автозапчасти - на все есть готовые решения</p>
-                </div>
-            </div>
-        </div>
-        <div class="content">
-            <h1>Мы подходим для тех, кто...</h1>
-            <div class="section">
-                <div class="section-left">
-                    <img src="https://www.intea.pro/upload/iblock/a29/a2996ba568243b30a6015a166b3c3087.png" alt="Laptop" class="section-image">
-                    <p class="section-title">Первый раз подключает проекты 1С</p>
-                    <p class="section-description">Помогаем подобрать программы и получить лицензию; устанавливаем, сопровождаем</p>
-                </div>
-                <div class="section-right">
-                    <img src="https://www.intea.pro/upload/iblock/81f/81f121c25d80482fa0f805a8b3f7ea05.png" alt="Laptop" class="section-image">
-                    <p class="section-title">Работает с маркетплейсами</p>
-                    <p class="section-description">Имеем специальное решение и опыт внедрения для Ozon и Wildberries</p>
+            </section>
+            <section class="section block">
+                <ul class="our-items-list flex row-flex">
+                    <li class="our-item flex column-flex mobile-fw" style="background: url(img/our-one.png);">
+                        <span class="our-item-label">Название</span>
+                        <h3 class="our-item-title">Оптимизируйте складскую логистику с нашим инновационным модулем</h3>
+                        <p class="our-item-description">Решение для точной и быстрой обработки заказов</p>
+                        <div class="grad-img"></div>
+                    </li>
+                    <li class="our-item flex column-flex mobile-fw">
+                        <div class="our-item-inner-img">
+                            <img src="img/our-two.png" alt="Integration">
+                        </div>
+                        <h3 class="our-item-title">Любые сложные интеграции 1С</h3>
+                        <p class="our-item-description">С CRM, IP-телефонией, ТСД</p>
+                    </li>
+                    <li class="our-item flex column-flex mobile-fw" style="background: url(img/our-three.png);">
+                        <h3 class="our-item-title">1С для маркетплейсов</h3>
+                        <p class="our-item-description">Отгружайте товары на Озон и Wildberies в 10 раз быстрее. Даже если заказов - сотни в день</p>
+                        <div class="grad-img"></div>
+                    </li>
+                    <li class="our-item flex column-flex mobile-fw">
+                        <div class="our-item-inner-img-logo">
+                            <img src="img/our-four-one.png" alt="Laptop">
+                        </div>
+                        <h3 class="our-item-title">Автоматизация товароучетных операций с Клеверенс</h3>
+                        <p class="our-item-description">Ускорьте процессы, устраните ошибки человеческого фактора и продавайте больше с меньшими усилиями</p>
+                        <div class="our-item-inner-img-abs">
+                            <img src="img/our-four-two.png" alt="Laptop">
+                        </div>
+                    </li>
+                    <li class="our-item flex column-flex mobile-fw" style="background: url(img/our-five.png);">
+                        <span class="our-item-label">Название</span>
+                        <h3 class="our-item-title">Веб-приложения</h3>
+                        <p class="our-item-description">Для использования 1С другими приложениями по протоколам HTTP, SSL/TLS, WS-I BP, SOAP, WSDL</p>
+                        <div class="grad-img"></div>
+                    </li>
+                    <li class="our-item flex column-flex mobile-fw">
+                        <div class="our-item-inner-img-logo">
+                            <img src="img/our-six.png" alt="Configuration">
+                        </div>
+                        <h3 class="our-item-title">Адаптация типовых конфигураций 1С</h3>
+                        <p class="our-item-description">Ритейл, цветы, электроника, бытовые товары, автозапчасти - на все есть готовые решения</p>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    <div class="dark-wrapper section block">
+        <div class="container">
+            <section class="section">
+                <div class="for-section flex column-flex">
+                    <h2>Мы подходим для тех, кто...</h2>
+                    <div class="for-box flex row-flex">
+                        <div class="for-box-item flex column-flex mobile-fw">
+                            <div class="for-box-item-img"><img src="img/dark1.png" alt="Laptop"></div>
+                            <h3 class="for-item-title">Первый раз подключает проекты 1С</h3>
+                            <p class="section-description">Помогаем подобрать программы и получить лицензию; устанавливаем, сопровождаем</p>
+                        </div>
+                        <div class="for-box-item flex column-flex mobile-fw">
+                            <div class="for-box-item-img"><img src="img/dark2.png" alt="Laptop"></div>
+                            <h3 class="for-item-title">Работает с маркетплейсами</h3>
+                            <p class="section-description">Имеем специальное решение и опыт внедрения для Ozon и Wildberries</p>
+                        </div>
+                        <div class="for-box-item flex column-flex mobile-fw">
+                            <div class="for-box-item-img"><img src="img/dark3.png" alt="Laptop"></div>
+                            <h3 class="for-item-title">Уже работает с 1С, но ищет специалистов на интеграцию</h3>
+                            <p class="section-description">Имеем опыт конфигурирования проектов на базе 1С любой сложности</p>
+                        </div>
+                    </div>
                     <button class="button">Оставить заявку</button>
                 </div>
-            </div>
-            <div class="section">
-                <div class="section-left">
-                    <img src="https://www.intea.pro/upload/iblock/549/549257d2f58f52764b1ff1522c419a14.png" alt="Laptop" class="section-image">
-                    <p class="section-title">Уже работает с 1С, но ищет специалистов на интеграцию</p>
-                    <p class="section-description">Имеем опыт конфигурирования проектов на базе 1С любой сложности</p>
-                    <button class="button">Оставить заявку</button>
-                </div>
-                <div class="section-right">
-                    <img src="https://www.intea.pro/upload/iblock/6ba/6ba669a01c678812443462fa4208256a.png" alt="Logo" class="section-image">
-                    <p class="section-title">Мы – официальный франчайзи компании 1С</p>
-                    <p class="section-description">Покажем платформу в деле, поможем выбрать программное обеспечение, тариф и ответим на вопросы</p>
-                    <button class="button">Оставить заявку</button>
-                </div>
-            </div>
+            </section>
         </div>
+    </div>    
+    <div class="container ">
+        <main class="main">        
+                <div class="banner banner-main flex">
+                    <div class="banner-content flex row-flex mobile-fw">
+                      <div class="banner-col flex column-flex mobile-fw">
+                        <h2>Мы — официальный франчайзи компании 1С</h2>
+                        <p>Покажем платформу в деле, поможем выбрать тариф и ответим на вопросы. <br>Перед оформлением подписки можно протестировать бесплатно.</p>
+                        <button class="button">Оставить заявку</button>
+                      </div>
+                      <div class="banner-img mobile-fw">
+                        <img src="img/1C-logo.png" alt="1C-Logo">
+                      </div>
+                    </div>
+                    <div class="parallax-banner parallax-banner-white"></div>
+                  </div>
+        </main>
     </div>
     <footer>
         <div class="container">
@@ -179,6 +228,60 @@
             </div>
         </div>
     </footer>
+    <div id="burgerWindow" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M23.0059 1.60645L1.00031 21.9965" stroke="#0061FE" stroke-width="2" stroke-linecap="round"/>
+            <path d="M22.6074 22.2131L1.39422 0.999932" stroke="#0061FE" stroke-width="2" stroke-linecap="round"/>
+          </svg>            
+        </span>
+        <div class="mobile-menu flex column-flex">
+            <a href="catalog.html"><span>Продукты</span></a>
+                <a href="support.html"><span>Поддержка</span></a>
+                <a href="services.html"><span>Сервис</span></a>
+                <a href="uslugi.html"><span>Услуги</span></a>
+                <a href="cleverence.html"><span>Клеверенс</span></a>
+                <a href="#"><span>Складская логистика</span></a>
+                <a href="#"><span>О компании</span></a>
+                <a href="blog.html"><span>Статьи</span></a>
+        </div>
+        <div class="search-box flex">
+            <input type="search" placeholder="Поиск">
+            <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <defs>
+                    <clipPath id="clip96_12563">
+                        <rect rx="-0.500000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+                    </clipPath>
+                </defs>
+                <g clip-path="url(#clip96_12563)">
+                    <path d="M10 17C6.13 17 3 13.86 3 10C3 6.13 6.13 3 10 3C13.86 3 17 6.13 17 10C17 13.86 13.86 17 10 17Z" stroke="#DBDBDB" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
+                    <path d="M15 15L21 21" stroke="#DBDBDB" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+                </g>
+            </svg>
+        </div>
+        <button class="button">Заказать звонок</button>
+      </div>
+    
+    </div>
     <script src="script.js"></script>
+    <script>
+      var burger = document.getElementById("burger");
+      var burgerWindow = document.getElementById("burgerWindow");
+      var spanOne = document.getElementsByClassName("close")[0];
+
+      
+      burger.onclick = function() {
+        burgerWindow.style.display = "block";
+        console.log('Burger');
+      }
+
+      spanOne.onclick = function() {
+        burgerWindow.style.display = "none";
+      }
+
+    </script>
 </body>
 </html>

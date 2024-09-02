@@ -23,9 +23,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 var swiper = new Swiper(".testImotionalSwiper", {
-    slidesPerView: 3,
-    centeredSlides: true,
+    slidesPerView: 1,
     spaceBetween: 30,
+    centeredSlides: true,
+    breakpoints: {
+        480: {
+            slidesPerView: 2,
+        },
+        1260: {
+            slidesPerView: 3,
+        }
+    },
     pagination: {
       el: ".swiper-pagination-testi",
       type: "fraction",
@@ -34,4 +42,7 @@ var swiper = new Swiper(".testImotionalSwiper", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
+    
   });
+
+  
