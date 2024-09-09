@@ -84,7 +84,7 @@
                         <h1 class="product-title">Настройка 1С</h1>
                         <p class="product-description">Базовый набор для небольшой компании по льготной цене</p>
                         <div class="price-box flex">
-                            <p class="product-price number" data-max="63690">63000</p>
+                            <p class="product-price number">63390</p>
                             <p class="product-price">&#8381;</p>
                         </div>
                         <button class="button">В КОРЗИНУ</button>
@@ -140,27 +140,5 @@
     </div>
 </footer>
 <script src="script.js"></script>
-<script>
-    var number = document.querySelector('.number'),
-    numberTop = number.getBoundingClientRect().top,
-    start = +number.innerHTML, end = +number.dataset.max;
-
-    console.log(number);
-    console.log(numberTop);
-    console.log(start);
-    console.log(end);
-
-    window.addEventListener('load', function onScroll() {
-        if(window.pageYOffset > numberTop - window.innerHeight / 2) {
-            this.removeEventListener('scroll', onScroll);
-            var interval = setInterval(function() {
-                number.innerHTML = ++start;
-                if(start == end) {
-                    clearInterval(interval);
-                }
-            }, 0);
-        }
-    });
-</script>
 </body>
 </html>

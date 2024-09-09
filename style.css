@@ -1545,6 +1545,9 @@ input[type=text], input[type=tel] {
   .blog-content-item {
     width: calc(50% - 10px);
   }
+  .parallax-title {
+    opacity: 0.3;
+  }
 }
 
 @media screen and (max-width: 480px) {
